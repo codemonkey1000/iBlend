@@ -32,11 +32,7 @@ uses
   FMX.ListView.Adapters.Base, FMX.ListView, FMX.Grid.Style, FMX.EditBox,
   FMX.SpinBox, FMX.ComboEdit,FMX.Colors, FMX.CalendarEdit, FMX.Memo.Types,
 
-  FMX.wwCheckBox, FMX.wwColumnTypes, FMX.wwDataGrid, FMX.wwLayouts,
-  FMX.wwBaseGrid,
-
-  FMX.wwEdit, FMX.wwSearchBox, FMX.wwLayoutGrid, FMX.wwTypes, FMX.Menus,
-  Data.FMTBcd, DataSnap.DBClient, Data.Bind.DBXScope;
+  FMX.Menus, Data.FMTBcd, DataSnap.DBClient, Data.Bind.DBXScope;
 
 type
   TFormulateForm = class(TForm)
@@ -427,13 +423,6 @@ type
     BindSourceDBFrom: TBindSourceDB;
     BindNavigator2: TBindNavigator;
     SourcesLayout: TLayout;
-    FertDataGrid: TwwDataGrid;
-    FertDataGridITEM: TwwGridColumn;
-    FertDataGridNAME: TwwGridColumn;
-    FertDataGridN: TwwGridColumn;
-    FertDataGridP: TwwGridColumn;
-    FertDataGridK: TwwGridColumn;
-    FertDataGridUSRGRADE: TwwGridColumn;
     FilterPanel: TPanel;
     ShowFormTB2: TToolBar;
     DryFilter2: TRadioButton;
@@ -447,35 +436,17 @@ type
     ALLFilter2: TRadioButton;
     ShowNPKLabel2: TLabel;
     BuildBtn: TButton;
-    FertDataGridCOMPANY: TwwGridColumn;
-    FertDataGridUFTRS: TwwGridColumn;
-    FertDataGridWATER: TwwGridColumn;
-    GenericCheckbox: TwwCheckbox;
     PolyCheck: TCheckBox;
     SulfurCheck: TCheckBox;
     ChelateCheck: TCheckBox;
     HeatBox: TCheckBox;
-    FertDataGridREPORT: TwwGridColumn;
-    FertDataGridREGULATED: TwwGridColumn;
     Splitter1: TSplitter;
-    wwDataGridFrom: TwwDataGrid;
-    wwDataGridFromAIName: TwwGridColumn;
     FavoriteCheck: TCheckBox;
     MainFilierPanel: TPanel;
     FilterCheckBox: TCheckBox;
     LinkGridToDataSourceBindSourceDBX: TLinkGridToDataSource;
-    wwDataGridItem: TwwDataGrid;
     BindSourceDBItem: TBindSourceDB;
-    wwDataGridItemItem: TwwGridColumn;
-    wwDataGridItemPrice1: TwwGridColumn;
-    wwDataGridItemFUSName: TwwGridColumn;
-    wwDataGridItemFUSCost: TwwGridColumn;
-    wwDataGridItemFUSUOM: TwwGridColumn;
-    wwDataGridItemHazardous: TwwGridColumn;
-    wwDataGridItemFUSLBS: TwwGridColumn;
     Panel2: TPanel;
-    wwDataGridItemTYPE: TwwGridColumn;
-    wwDataGridItemIsFluid: TwwGridColumn;
     FormPanel: TPanel;
     TypePanel: TPanel;
     AllRadioButton: TRadioButton;
@@ -514,8 +485,6 @@ type
     LinkControlToField60: TLinkControlToField;
     LinkControlToField61: TLinkControlToField;
     LinkControlToField62: TLinkControlToField;
-    wwAIDataGrid: TwwDataGrid;
-    wwGridColumn1: TwwGridColumn;
     AddSourceBtn: TButton;
     ActiveIngreidentPanel: TPanel;
     AIBindNavigator: TBindNavigator;
@@ -778,69 +747,8 @@ type
     NutFrom: TMenuItem;
     DoneInsRow: TButton;
     DoneInsCol: TButton;
-    wwDataGrid1: TwwDataGrid;
     DoneInsRow2: TButton;
-    wwDataGrid2: TwwDataGrid;
-    wwDataGrid1Loc: TwwGridColumn;
-    wwDataGrid1Item: TwwGridColumn;
-    wwDataGrid1Bin: TwwGridColumn;
-    wwDataGrid1AccountNumber: TwwGridColumn;
-    wwDataGrid1CCDB: TwwGridColumn;
-    wwDataGrid1TYPE: TwwGridColumn;
-    wwDataGrid1InventoryName: TwwGridColumn;
-    wwDataGrid1InventoryUOM: TwwGridColumn;
-    wwDataGrid1InventoryLBS: TwwGridColumn;
-    wwDataGrid1InventoryNUM: TwwGridColumn;
-    wwDataGrid1InventoryQOH: TwwGridColumn;
-    wwDataGrid1InventoryCOST: TwwGridColumn;
-    wwDataGrid1InventoryCommitted: TwwGridColumn;
-    wwDataGrid1InventoryReorder: TwwGridColumn;
-    wwDataGrid1InventoryLotNum: TwwGridColumn;
-    wwDataGrid1BeginningQty: TwwGridColumn;
-    wwDataGrid1BeginningDate: TwwGridColumn;
-    wwDataGrid1InvoiceName: TwwGridColumn;
-    wwDataGrid1InvoiceUOM: TwwGridColumn;
-    wwDataGrid1InvoiceLBS: TwwGridColumn;
-    wwDataGrid1InvoiceNUM: TwwGridColumn;
-    wwDataGrid1Price1: TwwGridColumn;
-    wwDataGrid1Price2: TwwGridColumn;
-    wwDataGrid1Price3: TwwGridColumn;
-    wwDataGrid1Price4: TwwGridColumn;
-    wwDataGrid1Price5: TwwGridColumn;
-    wwDataGrid1Billable: TwwGridColumn;
-    wwDataGrid1FUSName: TwwGridColumn;
-    wwDataGrid1FUSCost: TwwGridColumn;
-    wwDataGrid1FUSUOM: TwwGridColumn;
-    wwDataGrid1FUSLBS: TwwGridColumn;
-    wwDataGrid1FUSReport: TwwGridColumn;
-    wwDataGrid1FUSMixed: TwwGridColumn;
-    wwDataGrid1FUSPromptLower: TwwGridColumn;
-    wwDataGrid1FUSPromptUpper: TwwGridColumn;
-    wwDataGrid1FUSLowerBound: TwwGridColumn;
-    wwDataGrid1FUSUpperBound: TwwGridColumn;
-    wwDataGrid1FUSMixUOM: TwwGridColumn;
-    wwDataGrid1IsFluid: TwwGridColumn;
-    wwDataGrid1Density: TwwGridColumn;
-    wwDataGrid1SPG: TwwGridColumn;
-    wwDataGrid1Ticks: TwwGridColumn;
-    wwDataGrid1IsFormula: TwwGridColumn;
-    wwDataGrid1Formula: TwwGridColumn;
-    wwDataGrid1Regulated: TwwGridColumn;
-    wwDataGrid1Hazardous: TwwGridColumn;
-    wwDataGrid1ERG: TwwGridColumn;
-    wwDataGrid1DOT: TwwGridColumn;
-    wwDataGrid1ShipName: TwwGridColumn;
-    wwDataGrid1Placard: TwwGridColumn;
-    wwDataGrid1Class: TwwGridColumn;
-    wwDataGrid1Package: TwwGridColumn;
-    wwDataGrid1ListID: TwwGridColumn;
-    wwDataGrid1COKEY: TwwGridColumn;
-    wwDataGrid1UCC: TwwGridColumn;
-    wwDataGrid1PRODUCTID: TwwGridColumn;
-    wwDataGrid1BARCODE: TwwGridColumn;
     BindSourceDBX1: TBindSourceDBX;
-    wwDataGrid2MixName: TwwGridColumn;
-    wwDataGrid2Code: TwwGridColumn;
     RadioButton4: TRadioButton;
     Button3: TButton;
     PWChangeBtn: TButton;
@@ -960,7 +868,6 @@ type
     procedure EveryRadioButtonClick(Sender: TObject);
     procedure DryRadioButtonChange(Sender: TObject);
     procedure FluidRadioButtonClick(Sender: TObject);
-    procedure wwDataGridItemCellChanged(Sender: TwwDataGrid);
     procedure GroupEditxPopup(Sender: TObject);
     procedure ConvertBtnClick(Sender: TObject);
     procedure TagTabItemClick(Sender: TObject);
@@ -1016,8 +923,6 @@ type
     procedure MixTabItemClick(Sender: TObject);
     procedure PSpinBoxChange(Sender: TObject);
     procedure NSpinBoxChange(Sender: TObject);
-    procedure FertDataGridCheckboxClick(Sender: TObject;
-      CellAttributes: TwwCellAttributes; AFieldName: string);
     procedure MenuInsertClick(Sender: TObject);
     procedure NutFromClick(Sender: TObject);
     procedure InsertRowClick(Sender: TObject);
@@ -1110,7 +1015,7 @@ implementation
 
 uses
   XSBuiltins,LionDataModule,
-   GetpFUSUnit,
+//   GetpFUSUnit,
    TVASaltOutTempUnit;
 
 var
@@ -2066,8 +1971,8 @@ Procedure TFormulateForm.SetFilters;
           if FavoriteCheck.IsChecked then Favorite:= '[REGULATED] = True'
                                      else Favorite:= '[REGULATED] = False';
 
-          if GenericCheckBox.IsChecked then Generic:= ' and [Company] =  ''Generic'''
-                                       else Generic:= ' and [Company] <>  ''Generic''';
+//          if GenericCheckBox.IsChecked then Generic:= ' and [Company] =  ''Generic'''
+//                                       else Generic:= ' and [Company] <>  ''Generic''';
           if PolyCheck.IsChecked then PolyCoat:= ' and [POLYCOAT] =  True'
                                  else PolyCoat:= ' and [POLYCOAT] =  False';
           if SulfurCheck.IsChecked then SulfurCoat:= ' and [SULFURCOAT] =  True'
@@ -2158,7 +2063,7 @@ Function  TFormulateForm.ItemRowCount;
 
 procedure TFormulateForm.Label15Click(Sender: TObject);
 begin
-  wwDataGrid1.Visible:= False;
+ // wwDataGrid1.Visible:= False;
 end;
 
 procedure TFormulateForm.Last_EditExit(Sender: TObject);
@@ -3636,13 +3541,13 @@ procedure TFormulateForm.FavoriteCheckClick(Sender: TObject);
 begin
   SetFilters;
 end;
-
-procedure TFormulateForm.FertDataGridCheckboxClick(Sender: TObject;
-  CellAttributes: TwwCellAttributes; AFieldName: string);
-begin
-//  DataModule1.FertClientDataSet.ApplyUpdates(-1);
-//  DataModule1.FertClientDataSet.FieldByName(AFieldName).AsBoolean;
-end;
+//
+//procedure TFormulateForm.FertDataGridCheckboxClick(Sender: TObject;
+//  CellAttributes: TwwCellAttributes; AFieldName: string);
+//begin
+////  DataModule1.FertClientDataSet.ApplyUpdates(-1);
+////  DataModule1.FertClientDataSet.FieldByName(AFieldName).AsBoolean;
+//end;
 
 procedure TFormulateForm.FertRadioButtonClick(Sender: TObject);
 begin
@@ -4023,12 +3928,12 @@ begin
   end;
 end;
 
-procedure TFormulateForm.wwDataGridItemCellChanged(Sender: TwwDataGrid);
-var
-  i : Integer;
-begin
-  i:= Sender.GetValue('FUSUOM').AsInteger;
-end;
+//procedure TFormulateForm.wwDataGridItemCellChanged(Sender: TwwDataGrid);
+//var
+//  i : Integer;
+//begin
+//  i:= Sender.GetValue('FUSUOM').AsInteger;
+//end;
 
 procedure TFormulateForm.XMLListBoxItemClick(const Sender: TCustomListBox;
   const Item: TListBoxItem);
@@ -4037,7 +3942,7 @@ var
   Row : Integer;
   Col : Integer;
 begin
-  FUSData.GetPFUS(DataModule1.DocumentsPath+Item.Text+'.XML');
+ // FUSData.GetPFUS(DataModule1.DocumentsPath+Item.Text+'.XML');
   Lion.SetLengths(FUSData.NumAct,FUSData.NumRes);
   Lion.InitLP;
   FUSData.RewindAct;
@@ -4080,7 +3985,7 @@ begin
     Inc(Row);
     while not FUSData.EofRes do begin
       Inc(Col);
-      Lion.B[Row-1,Col-1]:= FUSData.GetB(Row,Col);
+    //  Lion.B[Row-1,Col-1]:= FUSData.GetB(Row,Col);
       FUSData.NextRes;
     end;
     FUSData.RewindRes;
@@ -4571,7 +4476,7 @@ begin
     Filtered:= True;
     First;
     while not eof do begin
-      FUSData.GetPFUS(XMLPath);
+    //  FUSData.GetPFUS(XMLPath);
       sGroup:=FieldByName('XML').AsString;
       Next;
     end;
@@ -4631,7 +4536,7 @@ var
   i,
   ii  : Integer;
 begin
-  wwDataGrid2.Visible:= False;
+ // wwDataGrid2.Visible:= False;
   DoneInsCol.Visible := False;
   Nut:= DataModule1.TagClientDataSet.FieldByName('code').AsString;
   Lion.InsCol(BGrid.Col,Nut);
@@ -4669,7 +4574,7 @@ var
   ii,
   ACol,ARow : Integer;
 begin
-  wwDataGrid1.Visible:= False;
+//  wwDataGrid1.Visible:= False;
   DoneInsRow2.Visible:= False;
   Item:= DataModule1.ItemClientDataSet.FieldByName('Item').AsString;
 //  Scale:= Lion.InputScale;
@@ -4803,14 +4708,14 @@ procedure TFormulateForm.InsertColClick(Sender: TObject);
 var
   Nut : String;
 begin
-  wwDataGrid2.Visible:= True;
+ // wwDataGrid2.Visible:= True;
   DoneInsCol.Visible:= True;
 
   DataModule1.TagClientDataSet.Active:= False;
   BindSourceDBX.DataSource.DataSet:= DataModule1.TagClientDataSet;
   DataModule1.TagClientDataSet.Active:= True;
 
-  wwDataGrid2.DataSource:= BindSourceDBX;
+ // wwDataGrid2.DataSource:= BindSourceDBX;
 end;
 
 procedure TFormulateForm.InsertColumnClick(Sender: TObject);
@@ -4823,7 +4728,7 @@ var
   Item: String;
   NumRows : Integer;
 begin
-  wwDataGrid1.Visible:= True;
+ // wwDataGrid1.Visible:= True;
   DoneInsRow2.Visible:= True;
 //  NumRows:= BGrid.RowCount;
 //  Inc(NumRows);
@@ -4875,8 +4780,8 @@ end;
 
 procedure TFormulateForm.AddSourceBtnClick(Sender: TObject);
 begin
-  wwDataGridFrom.Visible:= not wwDataGridFrom.Visible;
-  wwAIDataGrid.Visible:= not wwAIDataGrid.Visible;
+ // wwDataGridFrom.Visible:= not wwDataGridFrom.Visible;
+ // wwAIDataGrid.Visible:= not wwAIDataGrid.Visible;
   ActiveIngreidentPanel.Visible:= not ActiveIngreidentPanel.Visible;
 end;
 

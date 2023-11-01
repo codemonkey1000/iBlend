@@ -4,7 +4,7 @@ object FormulateForm: TFormulateForm
   ActiveControl = TabItem16
   Caption = 'iBlend 1.0  Copyright 2023 Lion Software'
   ClientHeight = 596
-  ClientWidth = 781
+  ClientWidth = 780
   Position = Designed
   FormFactor.Width = 320
   FormFactor.Height = 480
@@ -15,7 +15,7 @@ object FormulateForm: TFormulateForm
   DesignerMasterStyle = 0
   object TabControl1: TTabControl
     Align = Top
-    Size.Width = 781.000000000000000000
+    Size.Width = 780.000000000000000000
     Size.Height = 550.000000000000000000
     Size.PlatformDefault = False
     TabHeight = 49.000000000000000000
@@ -23,19 +23,19 @@ object FormulateForm: TFormulateForm
     TabOrder = 1
     TabPosition = PlatformDefault
     Sizes = (
-      781s
+      780s
       501s
-      781s
+      780s
       501s
-      781s
+      780s
       501s
-      781s
+      780s
       501s
-      781s
+      780s
       501s
-      781s
+      780s
       501s
-      781s
+      780s
       501s)
     object FormulateTabItem: TTabItem
       CustomIcon = <
@@ -52,7 +52,7 @@ object FormulateForm: TFormulateForm
       ExplicitSize.cy = 26.000000000000000000
       object InputLayout: TLayout
         Align = Client
-        Size.Width = 401.000000000000000000
+        Size.Width = 400.000000000000000000
         Size.Height = 501.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
@@ -276,7 +276,7 @@ object FormulateForm: TFormulateForm
         object GroupPanel: TPanel
           Align = Bottom
           Position.Y = 431.000000000000000000
-          Size.Width = 401.000000000000000000
+          Size.Width = 400.000000000000000000
           Size.Height = 70.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 16
@@ -2055,7 +2055,7 @@ object FormulateForm: TFormulateForm
       ExplicitSize.cy = 26.000000000000000000
       object TabControl3: TTabControl
         Align = Client
-        Size.Width = 781.000000000000000000
+        Size.Width = 780.000000000000000000
         Size.Height = 501.000000000000000000
         Size.PlatformDefault = False
         TabHeight = 49.000000000000000000
@@ -2063,15 +2063,15 @@ object FormulateForm: TFormulateForm
         TabOrder = 0
         TabPosition = PlatformDefault
         Sizes = (
-          781s
+          780s
           452s
-          781s
+          780s
           452s
-          781s
+          780s
           452s
-          781s
+          780s
           452s
-          781s
+          780s
           452s)
         object TabItem13: TTabItem
           CustomIcon = <
@@ -2091,14 +2091,14 @@ object FormulateForm: TFormulateForm
             Align = Client
             CanFocus = True
             ClipChildren = True
-            Size.Width = 781.000000000000000000
+            Size.Width = 780.000000000000000000
             Size.Height = 452.000000000000000000
             Size.PlatformDefault = False
             TabOrder = 0
             RowCount = 0
             OnGetValue = AGridGetValue
             OnSetValue = AGridSetValue
-            Viewport.Width = 777.000000000000000000
+            Viewport.Width = 776.000000000000000000
             Viewport.Height = 427.000000000000000000
             object StringColumn12: TStringColumn
               Header = 'Mix Name'
@@ -2157,13 +2157,13 @@ object FormulateForm: TFormulateForm
             Align = Client
             CanFocus = True
             ClipChildren = True
-            Size.Width = 781.000000000000000000
+            Size.Width = 780.000000000000000000
             Size.Height = 452.000000000000000000
             Size.PlatformDefault = False
             TabOrder = 0
             RowCount = 0
             OnGetValue = RGridGetValue
-            Viewport.Width = 777.000000000000000000
+            Viewport.Width = 776.000000000000000000
             Viewport.Height = 427.000000000000000000
             object StringColumn14: TStringColumn
               Header = 'Mix Name'
@@ -2244,385 +2244,6 @@ object FormulateForm: TFormulateForm
             TextSettings.Font.StyleExt = {00070000000000000004000000}
             Visible = False
             OnClick = InsertColClick
-          end
-          object wwDataGrid1: TwwDataGrid
-            Touch.InteractiveGestures = [Pan]
-            EnableDragHighlight = False
-            Position.X = -16.000000000000000000
-            Position.Y = 16.000000000000000000
-            Size.Width = 241.000000000000000000
-            Size.Height = 468.000000000000000000
-            Size.PlatformDefault = False
-            TabOrder = 3
-            Visible = False
-            DataSource = BindSourceDBX
-            LineAttributes.LineOpacity = 1.000000000000000000
-            object wwDataGrid1Loc: TwwGridColumn
-              FieldName = 'Loc'
-              Title = 'Loc'
-              Width = 31
-              Index = 0
-            end
-            object wwDataGrid1Item: TwwGridColumn
-              FieldName = 'Item'
-              Title = 'Item'
-              Width = 70
-              Index = 1
-            end
-            object wwDataGrid1Bin: TwwGridColumn
-              FieldName = 'Bin'
-              Title = 'Bin'
-              Width = 31
-              Index = 2
-            end
-            object wwDataGrid1AccountNumber: TwwGridColumn
-              FieldName = 'AccountNumber'
-              Title = 'AccountNumber'
-              Width = 206
-              Index = 3
-            end
-            object wwDataGrid1CCDB: TwwGridColumn
-              FieldName = 'CCDB'
-              Title = 'CCDB'
-              Width = 70
-              Index = 4
-            end
-            object wwDataGrid1TYPE: TwwGridColumn
-              FieldName = 'TYPE'
-              Title = 'TYPE'
-              Width = 36
-              Index = 5
-            end
-            object wwDataGrid1InventoryName: TwwGridColumn
-              FieldName = 'InventoryName'
-              Title = 'InventoryName'
-              Width = 206
-              Index = 6
-            end
-            object wwDataGrid1InventoryUOM: TwwGridColumn
-              FieldName = 'InventoryUOM'
-              Title = 'InventoryUOM'
-              Width = 92
-              Index = 7
-            end
-            object wwDataGrid1InventoryLBS: TwwGridColumn
-              FieldName = 'InventoryLBS'
-              Title = 'InventoryLBS'
-              Width = 85
-              Index = 8
-            end
-            object wwDataGrid1InventoryNUM: TwwGridColumn
-              FieldName = 'InventoryNUM'
-              Title = 'InventoryNUM'
-              Width = 92
-              Index = 9
-            end
-            object wwDataGrid1InventoryQOH: TwwGridColumn
-              FieldName = 'InventoryQOH'
-              Title = 'InventoryQOH'
-              Width = 91
-              Index = 10
-            end
-            object wwDataGrid1InventoryCOST: TwwGridColumn
-              FieldName = 'InventoryCOST'
-              Title = 'InventoryCOST'
-              Width = 93
-              Index = 11
-            end
-            object wwDataGrid1InventoryCommitted: TwwGridColumn
-              FieldName = 'InventoryCommitted'
-              Title = 'InventoryCommitted'
-              Width = 127
-              Index = 12
-            end
-            object wwDataGrid1InventoryReorder: TwwGridColumn
-              FieldName = 'InventoryReorder'
-              Title = 'InventoryReorder'
-              Width = 107
-              Index = 13
-            end
-            object wwDataGrid1InventoryLotNum: TwwGridColumn
-              FieldName = 'InventoryLotNum'
-              Title = 'InventoryLotNum'
-              Width = 124
-              Index = 14
-            end
-            object wwDataGrid1BeginningQty: TwwGridColumn
-              FieldName = 'BeginningQty'
-              Title = 'BeginningQty'
-              Width = 86
-              Index = 15
-            end
-            object wwDataGrid1BeginningDate: TwwGridColumn
-              FieldName = 'BeginningDate'
-              Title = 'BeginningDate'
-              Width = 147
-              Index = 16
-            end
-            object wwDataGrid1InvoiceName: TwwGridColumn
-              FieldName = 'InvoiceName'
-              Title = 'InvoiceName'
-              Width = 206
-              Index = 17
-            end
-            object wwDataGrid1InvoiceUOM: TwwGridColumn
-              FieldName = 'InvoiceUOM'
-              Title = 'InvoiceUOM'
-              Width = 85
-              Index = 18
-            end
-            object wwDataGrid1InvoiceLBS: TwwGridColumn
-              FieldName = 'InvoiceLBS'
-              Title = 'InvoiceLBS'
-              Width = 85
-              Index = 19
-            end
-            object wwDataGrid1InvoiceNUM: TwwGridColumn
-              FieldName = 'InvoiceNUM'
-              Title = 'InvoiceNUM'
-              Width = 85
-              Index = 20
-            end
-            object wwDataGrid1Price1: TwwGridColumn
-              FieldName = 'Price1'
-              Title = 'Price1'
-              Width = 85
-              Index = 21
-            end
-            object wwDataGrid1Price2: TwwGridColumn
-              FieldName = 'Price2'
-              Title = 'Price2'
-              Width = 85
-              Index = 22
-            end
-            object wwDataGrid1Price3: TwwGridColumn
-              FieldName = 'Price3'
-              Title = 'Price3'
-              Width = 85
-              Index = 23
-            end
-            object wwDataGrid1Price4: TwwGridColumn
-              FieldName = 'Price4'
-              Title = 'Price4'
-              Width = 85
-              Index = 24
-            end
-            object wwDataGrid1Price5: TwwGridColumn
-              FieldName = 'Price5'
-              Title = 'Price5'
-              Width = 85
-              Index = 25
-            end
-            object wwDataGrid1Billable: TwwGridColumn
-              FieldName = 'Billable'
-              Title = 'Billable'
-              Width = 49
-              Index = 26
-            end
-            object wwDataGrid1FUSName: TwwGridColumn
-              FieldName = 'FUSName'
-              Title = 'FUSName'
-              Width = 132
-              Index = 27
-            end
-            object wwDataGrid1FUSCost: TwwGridColumn
-              FieldName = 'FUSCost'
-              Title = 'FUSCost'
-              Width = 85
-              Index = 28
-            end
-            object wwDataGrid1FUSUOM: TwwGridColumn
-              FieldName = 'FUSUOM'
-              Title = 'FUSUOM'
-              Width = 85
-              Index = 29
-            end
-            object wwDataGrid1FUSLBS: TwwGridColumn
-              FieldName = 'FUSLBS'
-              Title = 'FUSLBS'
-              Width = 85
-              Index = 30
-            end
-            object wwDataGrid1FUSReport: TwwGridColumn
-              FieldName = 'FUSReport'
-              Title = 'FUSReport'
-              Width = 69
-              Index = 31
-            end
-            object wwDataGrid1FUSMixed: TwwGridColumn
-              FieldName = 'FUSMixed'
-              Title = 'FUSMixed'
-              Width = 65
-              Index = 32
-            end
-            object wwDataGrid1FUSPromptLower: TwwGridColumn
-              FieldName = 'FUSPromptLower'
-              Title = 'FUSPromptLower'
-              Width = 107
-              Index = 33
-            end
-            object wwDataGrid1FUSPromptUpper: TwwGridColumn
-              FieldName = 'FUSPromptUpper'
-              Title = 'FUSPromptUpper'
-              Width = 108
-              Index = 34
-            end
-            object wwDataGrid1FUSLowerBound: TwwGridColumn
-              FieldName = 'FUSLowerBound'
-              Title = 'FUSLowerBound'
-              Width = 102
-              Index = 35
-            end
-            object wwDataGrid1FUSUpperBound: TwwGridColumn
-              FieldName = 'FUSUpperBound'
-              Title = 'FUSUpperBound'
-              Width = 103
-              Index = 36
-            end
-            object wwDataGrid1FUSMixUOM: TwwGridColumn
-              FieldName = 'FUSMixUOM'
-              Title = 'FUSMixUOM'
-              Width = 85
-              Index = 37
-            end
-            object wwDataGrid1IsFluid: TwwGridColumn
-              FieldName = 'IsFluid'
-              Title = 'IsFluid'
-              Width = 46
-              Index = 38
-            end
-            object wwDataGrid1Density: TwwGridColumn
-              FieldName = 'Density'
-              Title = 'Density'
-              Width = 85
-              Index = 39
-            end
-            object wwDataGrid1SPG: TwwGridColumn
-              FieldName = 'SPG'
-              Title = 'SPG'
-              Width = 85
-              Index = 40
-            end
-            object wwDataGrid1Ticks: TwwGridColumn
-              FieldName = 'Ticks'
-              Title = 'Ticks'
-              Width = 85
-              Index = 41
-            end
-            object wwDataGrid1IsFormula: TwwGridColumn
-              FieldName = 'IsFormula'
-              Title = 'IsFormula'
-              Width = 64
-              Index = 42
-            end
-            object wwDataGrid1Formula: TwwGridColumn
-              FieldName = 'Formula'
-              Title = 'Formula'
-              Width = 70
-              Index = 43
-            end
-            object wwDataGrid1Regulated: TwwGridColumn
-              FieldName = 'Regulated'
-              Title = 'Regulated'
-              Width = 66
-              Index = 44
-            end
-            object wwDataGrid1Hazardous: TwwGridColumn
-              FieldName = 'Hazardous'
-              Title = 'Hazardous'
-              Width = 69
-              Index = 45
-            end
-            object wwDataGrid1ERG: TwwGridColumn
-              FieldName = 'ERG'
-              Title = 'ERG'
-              Width = 31
-              Index = 46
-            end
-            object wwDataGrid1DOT: TwwGridColumn
-              FieldName = 'DOT'
-              Title = 'DOT'
-              Width = 54
-              Index = 47
-            end
-            object wwDataGrid1ShipName: TwwGridColumn
-              FieldName = 'ShipName'
-              Title = 'ShipName'
-              Width = 85
-              Index = 48
-            end
-            object wwDataGrid1Placard: TwwGridColumn
-              FieldName = 'Placard'
-              Title = 'Placard'
-              Width = 85
-              Index = 49
-            end
-            object wwDataGrid1Class: TwwGridColumn
-              FieldName = 'Class'
-              Title = 'Class'
-              Width = 85
-              Index = 50
-            end
-            object wwDataGrid1Package: TwwGridColumn
-              FieldName = 'Package'
-              Title = 'Package'
-              Width = 55
-              Index = 51
-            end
-            object wwDataGrid1ListID: TwwGridColumn
-              FieldName = 'ListID'
-              Title = 'ListID'
-              Width = 206
-              Index = 52
-            end
-            object wwDataGrid1COKEY: TwwGridColumn
-              FieldName = 'COKEY'
-              Title = 'COKEY'
-              Width = 206
-              Index = 53
-            end
-            object wwDataGrid1UCC: TwwGridColumn
-              FieldName = 'UCC'
-              Title = 'UCC'
-              Width = 62
-              Index = 54
-            end
-            object wwDataGrid1PRODUCTID: TwwGridColumn
-              FieldName = 'PRODUCTID'
-              Title = 'PRODUCTID'
-              Width = 78
-              Index = 55
-            end
-            object wwDataGrid1BARCODE: TwwGridColumn
-              FieldName = 'BARCODE'
-              Title = 'BARCODE'
-              Width = 132
-              Index = 56
-            end
-          end
-          object wwDataGrid2: TwwDataGrid
-            Touch.InteractiveGestures = [Pan]
-            Align = Left
-            EnableDragHighlight = False
-            Size.Width = 225.000000000000000000
-            Size.Height = 452.000000000000000000
-            Size.PlatformDefault = False
-            TabOrder = 5
-            Visible = False
-            DataSource = BindSourceDBX1
-            LineAttributes.LineOpacity = 1.000000000000000000
-            object wwDataGrid2Code: TwwGridColumn
-              FieldName = 'Code'
-              Title = 'Code'
-              Width = 70
-              Index = 0
-            end
-            object wwDataGrid2MixName: TwwGridColumn
-              FieldName = 'MixName'
-              Title = 'MixName'
-              Width = 132
-              Index = 1
-            end
           end
           object DoneInsCol: TButton
             Size.Width = 185.000000000000000000
@@ -2722,7 +2343,7 @@ object FormulateForm: TFormulateForm
             item
             end>
           IsSelected = False
-          Size.Width = 69.000000000000000000
+          Size.Width = 70.000000000000000000
           Size.Height = 49.000000000000000000
           Size.PlatformDefault = False
           StyleLookup = ''
@@ -3124,7 +2745,7 @@ object FormulateForm: TFormulateForm
       ExplicitSize.cy = 26.000000000000000000
       object Panel1: TPanel
         Align = Top
-        Size.Width = 781.000000000000000000
+        Size.Width = 780.000000000000000000
         Size.Height = 57.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
@@ -3162,7 +2783,6 @@ object FormulateForm: TFormulateForm
         object Loc: TEdit
           Touch.InteractiveGestures = [LongTap, DoubleTap]
           TabOrder = 3
-          Text = '999'
           Position.X = 100.000000000000000000
           Position.Y = 3.000000000000000000
           Size.Width = 41.000000000000000000
@@ -3172,7 +2792,6 @@ object FormulateForm: TFormulateForm
         object Item: TEdit
           Touch.InteractiveGestures = [LongTap, DoubleTap]
           TabOrder = 4
-          Text = 'I000000'
           Position.X = 100.000000000000000000
           Position.Y = 32.000000000000000000
         end
@@ -3230,7 +2849,7 @@ object FormulateForm: TFormulateForm
       end
       object TabControl2: TTabControl
         Align = Client
-        Size.Width = 781.000000000000000000
+        Size.Width = 780.000000000000000000
         Size.Height = 444.000000000000000000
         Size.PlatformDefault = False
         TabHeight = 49.000000000000000000
@@ -3238,20 +2857,20 @@ object FormulateForm: TFormulateForm
         TabOrder = 1
         TabPosition = PlatformDefault
         Sizes = (
-          781s
+          780s
           395s
-          781s
+          780s
           395s
-          781s
+          780s
           395s
-          781s
+          780s
           395s)
         object TabItem9: TTabItem
           CustomIcon = <
             item
             end>
           IsSelected = True
-          Size.Width = 83.000000000000000000
+          Size.Width = 82.000000000000000000
           Size.Height = 49.000000000000000000
           Size.PlatformDefault = False
           StyleLookup = ''
@@ -3261,7 +2880,7 @@ object FormulateForm: TFormulateForm
           ExplicitSize.cy = 49.000000000000000000
           object Panel3: TPanel
             Align = Client
-            Size.Width = 781.000000000000000000
+            Size.Width = 780.000000000000000000
             Size.Height = 395.000000000000000000
             Size.PlatformDefault = False
             TabOrder = 0
@@ -3417,7 +3036,7 @@ object FormulateForm: TFormulateForm
             end
             object Panel5: TPanel
               Align = Client
-              Size.Width = 384.000000000000000000
+              Size.Width = 383.000000000000000000
               Size.Height = 395.000000000000000000
               Size.PlatformDefault = False
               TabOrder = 1
@@ -3586,7 +3205,6 @@ object FormulateForm: TFormulateForm
               object BlendCost: TEdit
                 Touch.InteractiveGestures = [LongTap, DoubleTap]
                 TabOrder = 6
-                Text = '50000'
                 Position.X = 124.000000000000000000
                 Position.Y = 112.000000000000000000
               end
@@ -3599,7 +3217,6 @@ object FormulateForm: TFormulateForm
               object Price1: TEdit
                 Touch.InteractiveGestures = [LongTap, DoubleTap]
                 TabOrder = 8
-                Text = '437500'
                 Position.X = 124.000000000000000000
                 Position.Y = 168.000000000000000000
               end
@@ -5056,7 +4673,7 @@ object FormulateForm: TFormulateForm
           end
           object Panel8: TPanel
             Align = Client
-            Size.Width = 388.000000000000000000
+            Size.Width = 387.000000000000000000
             Size.Height = 284.000000000000000000
             Size.PlatformDefault = False
             TabOrder = 1
@@ -5251,7 +4868,7 @@ object FormulateForm: TFormulateForm
           object Panel9: TPanel
             Align = Bottom
             Position.Y = 284.000000000000000000
-            Size.Width = 781.000000000000000000
+            Size.Width = 780.000000000000000000
             Size.Height = 111.000000000000000000
             Size.PlatformDefault = False
             TabOrder = 2
@@ -5523,7 +5140,7 @@ object FormulateForm: TFormulateForm
           ExplicitSize.cy = 49.000000000000000000
           object Panel17: TPanel
             Align = Top
-            Size.Width = 781.000000000000000000
+            Size.Width = 780.000000000000000000
             Size.Height = 41.000000000000000000
             Size.PlatformDefault = False
             TabOrder = 0
@@ -5540,7 +5157,7 @@ object FormulateForm: TFormulateForm
           end
           object SourcesLayout: TLayout
             Align = Client
-            Size.Width = 781.000000000000000000
+            Size.Width = 780.000000000000000000
             Size.Height = 354.000000000000000000
             Size.PlatformDefault = False
             TabOrder = 1
@@ -5562,7 +5179,7 @@ object FormulateForm: TFormulateForm
             end
             object SourceLayout: TLayout
               Align = Client
-              Size.Width = 389.000000000000000000
+              Size.Width = 388.000000000000000000
               Size.Height = 354.000000000000000000
               Size.PlatformDefault = False
               TabOrder = 2
@@ -5570,11 +5187,11 @@ object FormulateForm: TFormulateForm
                 Align = Client
                 CanFocus = True
                 ClipChildren = True
-                Size.Width = 389.000000000000000000
+                Size.Width = 388.000000000000000000
                 Size.Height = 354.000000000000000000
                 Size.PlatformDefault = False
                 TabOrder = 0
-                Viewport.Width = 385.000000000000000000
+                Viewport.Width = 384.000000000000000000
                 Viewport.Height = 329.000000000000000000
               end
             end
@@ -5587,7 +5204,7 @@ object FormulateForm: TFormulateForm
         item
         end>
       IsSelected = False
-      Size.Width = 84.000000000000000000
+      Size.Width = 83.000000000000000000
       Size.Height = 49.000000000000000000
       Size.PlatformDefault = False
       StyleLookup = ''
@@ -5595,95 +5212,9 @@ object FormulateForm: TFormulateForm
       Text = 'Build Group'
       ExplicitSize.cx = 69.000000000000000000
       ExplicitSize.cy = 26.000000000000000000
-      object wwDataGridItem: TwwDataGrid
-        Touch.InteractiveGestures = [Pan]
-        Align = Client
-        EnableDragHighlight = False
-        Size.Width = 781.000000000000000000
-        Size.Height = 452.000000000000000000
-        Size.PlatformDefault = False
-        TabOrder = 0
-        DataSource = BindSourceDBItem
-        LineAttributes.LineOpacity = 1.000000000000000000
-        OnCellChanged = wwDataGridItemCellChanged
-        object wwDataGridItemHazardous: TwwGridColumn
-          FieldName = 'Hazardous'
-          ControlType = gdctCheckbox
-          Title = 'Include'
-          Width = 64
-          Index = 0
-        end
-        object wwDataGridItemItem: TwwGridColumn
-          FieldName = 'Item'
-          Title = 'Item'
-          Width = 70
-          Index = 1
-        end
-        object wwDataGridItemFUSName: TwwGridColumn
-          FieldName = 'FUSName'
-          Title = 'FUSName'
-          Width = 132
-          Index = 2
-        end
-        object wwDataGridItemFUSCost: TwwGridColumn
-          FieldName = 'FUSCost'
-          Title = 'FUSCost'
-          Width = 85
-          Index = 3
-        end
-        object wwDataGridItemPrice1: TwwGridColumn
-          FieldName = 'Price1'
-          Title = 'Price1'
-          Width = 85
-          Index = 4
-        end
-        object wwDataGridItemFUSUOM: TwwGridColumn
-          FieldName = 'FUSUOM'
-          ControlType = gdctLookupCombo
-          Title = 'FUSUOM'
-          Width = 85
-          Index = 5
-          ControlAttributes.LookupCombo.DisplayColumns = <
-            item
-              FieldName = 'Index'
-              Title = 'Index'
-              Width = 85
-            end
-            item
-              FieldName = 'Unit'
-              Title = 'Unit'
-              Width = 46
-            end
-            item
-              FieldName = 'Name'
-              Title = 'Name'
-              Width = 132
-            end>
-          ControlAttributes.LookupCombo.LookupField = 'Index'
-          ControlAttributes.LookupCombo.LookupSource = BindSourceUnits
-        end
-        object wwDataGridItemFUSLBS: TwwGridColumn
-          FieldName = 'FUSLBS'
-          Title = 'FUSLBS'
-          Width = 85
-          Index = 6
-        end
-        object wwDataGridItemIsFluid: TwwGridColumn
-          FieldName = 'IsFluid'
-          Title = 'IsFluid'
-          Width = 50
-          Index = 7
-        end
-        object wwDataGridItemTYPE: TwwGridColumn
-          FieldName = 'TYPE'
-          Title = 'TYPE'
-          Width = 40
-          Index = 8
-        end
-      end
       object Panel2: TPanel
         Align = Top
-        Size.Width = 781.000000000000000000
+        Size.Width = 780.000000000000000000
         Size.Height = 49.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 1
@@ -5818,94 +5349,10 @@ object FormulateForm: TFormulateForm
       OnClick = TabItem5Click
       ExplicitSize.cx = 68.000000000000000000
       ExplicitSize.cy = 26.000000000000000000
-      object FertDataGrid: TwwDataGrid
-        Touch.InteractiveGestures = [Pan]
-        Align = Left
-        EnableDragHighlight = False
-        Position.Y = 73.000000000000000000
-        Size.Width = 456.000000000000000000
-        Size.Height = 428.000000000000000000
-        Size.PlatformDefault = False
-        TabOrder = 0
-        MultiSelectAttributes.Enabled = True
-        DataSource = BindSourceDBFert
-        LineAttributes.LineOpacity = 1.000000000000000000
-        Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnReorder, dgTabs, dgRowSelect, dgConfirmDelete, dgCancelOnExit, dgWordWrap, dgAlternatingRowFixed]
-        OnCheckboxClick = FertDataGridCheckboxClick
-        object FertDataGridREPORT: TwwGridColumn
-          FieldName = 'REPORT'
-          ControlType = gdctCheckbox
-          Title = 'Include'
-          Width = 60
-          Index = 0
-        end
-        object FertDataGridREGULATED: TwwGridColumn
-          FieldName = 'REGULATED'
-          ControlType = gdctCheckbox
-          Title = 'Favorite'
-          Width = 60
-          Index = 1
-        end
-        object FertDataGridNAME: TwwGridColumn
-          FieldName = 'NAME'
-          Title = 'NAME'
-          Width = 195
-          Index = 2
-        end
-        object FertDataGridN: TwwGridColumn
-          FieldName = 'N'
-          Title = 'N'
-          Width = 35
-          Index = 3
-        end
-        object FertDataGridP: TwwGridColumn
-          FieldName = 'P'
-          Title = 'P'
-          Width = 35
-          Index = 4
-        end
-        object FertDataGridK: TwwGridColumn
-          FieldName = 'K'
-          Title = 'K'
-          Width = 35
-          Index = 5
-        end
-        object FertDataGridITEM: TwwGridColumn
-          FieldName = 'ITEM'
-          Title = 'ITEM'
-          Width = 70
-          Index = 6
-        end
-        object FertDataGridUSRGRADE: TwwGridColumn
-          FieldName = 'USRGRADE'
-          Title = 'USRGRADE'
-          Width = 285
-          Index = 7
-        end
-        object FertDataGridCOMPANY: TwwGridColumn
-          FieldName = 'COMPANY'
-          Title = 'COMPANY'
-          Width = 163
-          Index = 8
-        end
-        object FertDataGridWATER: TwwGridColumn
-          FieldName = 'WATER'
-          Title = 'WATER'
-          Width = 85
-          Index = 9
-        end
-        object FertDataGridUFTRS: TwwGridColumn
-          FieldName = 'UFTRS'
-          Title = 'UFTRS'
-          Width = 85
-          Index = 10
-        end
-      end
       object Splitter1: TSplitter
         Align = Left
         Cursor = crHSplit
         MinSize = 20.000000000000000000
-        Position.X = 456.000000000000000000
         Position.Y = 73.000000000000000000
         Size.Width = 10.000000000000000000
         Size.Height = 428.000000000000000000
@@ -6029,26 +5476,9 @@ object FormulateForm: TFormulateForm
           end
         end
       end
-      object wwDataGridFrom: TwwDataGrid
-        Touch.InteractiveGestures = [Pan]
-        Align = Client
-        EnableDragHighlight = False
-        Size.Width = 315.000000000000000000
-        Size.Height = 428.000000000000000000
-        Size.PlatformDefault = False
-        TabOrder = 10
-        DataSource = BindSourceDBFrom
-        LineAttributes.LineOpacity = 1.000000000000000000
-        object wwDataGridFromAIName: TwwGridColumn
-          FieldName = 'AIName'
-          Title = 'Fertilizer Derived From'
-          Width = 240
-          Index = 0
-        end
-      end
       object MainFilierPanel: TPanel
         Align = Top
-        Size.Width = 781.000000000000000000
+        Size.Width = 780.000000000000000000
         Size.Height = 73.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 11
@@ -6162,18 +5592,6 @@ object FormulateForm: TFormulateForm
               Text = 'Show NPK'
             end
           end
-          object GenericCheckbox: TwwCheckbox
-            IsChecked = True
-            Position.X = 10.000000000000000000
-            Position.Y = 16.000000000000000000
-            Size.Width = 65.000000000000000000
-            Size.Height = 30.000000000000000000
-            Size.PlatformDefault = False
-            TabOrder = 5
-            Text = 'Generic'
-            OnChange = GenericCheckboxChange
-            OnClick = GenericCheckboxClick
-          end
           object PolyCheck: TCheckBox
             Position.X = 320.000000000000000000
             Position.Y = 45.000000000000000000
@@ -6258,24 +5676,6 @@ object FormulateForm: TFormulateForm
           OnClick = DoMyBtnClick
         end
       end
-      object wwAIDataGrid: TwwDataGrid
-        Touch.InteractiveGestures = [Pan]
-        Align = Client
-        EnableDragHighlight = False
-        Size.Width = 315.000000000000000000
-        Size.Height = 428.000000000000000000
-        Size.PlatformDefault = False
-        TabOrder = 12
-        OnKeyUp = wwAIDataGridKeyUp
-        DataSource = BindSourceDBFrom
-        LineAttributes.LineOpacity = 1.000000000000000000
-        object wwGridColumn1: TwwGridColumn
-          FieldName = 'AIName'
-          Title = 'Derived From'
-          Width = 240
-          Index = 0
-        end
-      end
     end
     object TabItem8: TTabItem
       CustomIcon = <
@@ -6292,13 +5692,13 @@ object FormulateForm: TFormulateForm
       ExplicitSize.cy = 26.000000000000000000
       object Layout5: TLayout
         Align = Client
-        Size.Width = 781.000000000000000000
+        Size.Width = 780.000000000000000000
         Size.Height = 501.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
         object Label16: TLabel
           Align = Top
-          Size.Width = 781.000000000000000000
+          Size.Width = 780.000000000000000000
           Size.Height = 57.000000000000000000
           Size.PlatformDefault = False
           object RadioButton1: TRadioButton
@@ -6386,19 +5786,19 @@ object FormulateForm: TFormulateForm
           Align = Client
           CanFocus = True
           ClipChildren = True
-          Size.Width = 781.000000000000000000
+          Size.Width = 780.000000000000000000
           Size.Height = 419.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
           RowHeight = 21.000000000000000000
-          RowCount = 201
-          Viewport.Width = 761.000000000000000000
-          Viewport.Height = 378.000000000000000000
+          RowCount = 0
+          Viewport.Width = 776.000000000000000000
+          Viewport.Height = 394.000000000000000000
         end
         object BindNavigator1: TBindNavigator
           Align = Top
           Position.Y = 57.000000000000000000
-          Size.Width = 781.000000000000000000
+          Size.Width = 780.000000000000000000
           Size.Height = 25.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 1
@@ -6434,7 +5834,7 @@ object FormulateForm: TFormulateForm
       ExplicitSize.cy = 49.000000000000000000
       object LogOnPanel: TPanel
         Align = Client
-        Size.Width = 781.000000000000000000
+        Size.Width = 780.000000000000000000
         Size.Height = 501.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
@@ -6548,7 +5948,7 @@ object FormulateForm: TFormulateForm
   object MainPanel: TPanel
     Align = Bottom
     Position.Y = 551.000000000000000000
-    Size.Width = 781.000000000000000000
+    Size.Width = 780.000000000000000000
     Size.Height = 45.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 9
@@ -6662,7 +6062,7 @@ object FormulateForm: TFormulateForm
     end
     object Panel18: TPanel
       Align = Bottom
-      Size.Width = 781.000000000000000000
+      Size.Width = 780.000000000000000000
       Size.Height = 45.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 9
